@@ -8,14 +8,14 @@ export function Home() {
   const filteredLessons = lessons.filter(lesson => lesson.title.toLowerCase().includes(searchTerm.toLowerCase()) || lesson.description.toLowerCase().includes(searchTerm.toLowerCase()));
   return <div className="container mx-auto px-4 py-8">
       {/* Hero section */}
-      <section className="bg-gradient-to-br from-blue-400 to-green-300 text-white rounded-2xl p-8 mb-10">
+      <section className="bg-gradient-to-br from-blue-800 to-purple-800 text-white rounded-2xl p-8 mb-10">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             ¡Bienvenido a RuralNet_Edu!
           </h1>
           <p className="text-xl mb-6">
             Comienza tu viaje en esta innovadora plataforma para el aprendizaje
-            de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal.
+            de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal, potencializado con ASUS.
             
           </p>
           <button className="bg-white text-red-500 hover:bg-amber-100 font-bold py-3 px-6 rounded-full shadow-lg transition transform hover:-translate-y-1">

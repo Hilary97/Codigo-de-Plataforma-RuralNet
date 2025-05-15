@@ -1,7 +1,7 @@
 import React from 'react';
 import { BookOpenIcon, MenuIcon } from 'lucide-react';
 export function Header() {
-  return <header className="sticky top-0 w-full bg-gradient-to-r from-blue-400 to-green-200 text-white shadow-md z-10">
+  return <header className="sticky top-0 w-full bg-gradient-to-r from-blue-800 to-purple-800 text-white shadow-md z-10">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <BookOpenIcon size={28} />
