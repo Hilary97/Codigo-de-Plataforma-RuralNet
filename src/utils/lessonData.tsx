@@ -21,7 +21,7 @@ export const lessons: Lesson[] = [{
   id: 'alfabeto',
   title: 'Etica y seguridad en línea',
   description: 'Aprende a proteger tus datos personales y navegación segura.',
-  imageUrl: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  imageUrl: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
   level: 'Principiante',
   duration: '15 min',
   content: {
@@ -60,30 +60,31 @@ export const lessons: Lesson[] = [{
   id: 'numeros',
   title: 'Oportunidades laborales',
   description: 'Explora las oportunidades laborales en el campo de la alfabetización digital.',
-  imageUrl: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  imageUrl: 'https://blog.tecmilenio.mx/hs-fs/hubfs/Ingeniero%20Industrial%20-%20Campo%20laboral.jpg?width=770&height=433&name=Ingeniero%20Industrial%20-%20Campo%20laboral.jpg',
   level: 'Intermedio',
   duration: '30 min'
 }, {
   id: 'colores',
-  title: 'Colores y Descripciones',
-  description: 'Vocabulario sobre colores y adjetivos descriptivos comunes.',
-  imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80',
-  level: 'Principiante',
-  duration: '20 min'
-}, {
-  id: 'familia',
-  title: 'La Familia',
-  description: 'Aprende vocabulario relacionado con la familia y relaciones.',
-  imageUrl: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-  level: 'Principiante',
+  title: 'Lengua y cultura indigena en México',
+  description: 'Aprende sobre la diversidad lingüística y cultural de México.',
+  imageUrl: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  level: 'Intermedio',
   duration: '30 min'
 }, {
-  id: 'verbos',
-  title: 'Verbos Básicos',
-  description: 'Introducción a los verbos más comunes en español.',
-  imageUrl: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-  level: 'Intermedio',
-  duration: '35 min'
+  id: 'IA',
+  title: 'La IA y su impacto en la sociedad',
+  description: 'Explora cómo la inteligencia artificial está transformando el mundo.',
+  imageUrl: 'https://gdb.voanews.com/01000000-0aff-0242-97dc-08db951500a1_w1023_n_r1_s_s.jpg',
+  level: 'Avanzado',
+  duration: '40 min'
+
+},  {
+  id: 'tecnologia',
+  title: 'Avances Tecnológicos',
+  description: 'Descubre cómo la tecnología está cambiando el mundo.',
+  imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  level: 'Avanzado',
+  duration: '40 min'
 }];
 export const exercises = [{
   lessonId: 'alfabeto',
