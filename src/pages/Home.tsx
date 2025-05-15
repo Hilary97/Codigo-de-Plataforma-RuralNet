@@ -14,7 +14,7 @@ export function Home() {
             ¡Bienvenido a RuralNet_Edu!
           </h1>
           <p className="text-xl mb-6">
-            Comienza tu viaje en esta inovadora plataforma para el aprendizaje
+            Comienza tu viaje en esta innovadora plataforma para el aprendizaje
             de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal.
             
           </p>
