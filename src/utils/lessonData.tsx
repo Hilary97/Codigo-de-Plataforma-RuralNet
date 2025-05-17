@@ -81,10 +81,12 @@ export const lessons: Lesson[] = [{
 },  {
   id: 'tecnologia',
   title: 'Avances Tecnológicos',
-  description: 'Descubre cómo la tecnología está cambiando el mundo.',
+  description: 'Descubre cómo la tecnología está cambiando el mundo .',
   imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   level: 'Avanzado',
   duration: '40 min'
+
+
 }];
 export const exercises = [{
   lessonId: 'alfabeto',

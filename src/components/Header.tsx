@@ -5,7 +5,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <BookOpenIcon size={28} />
-          <h1 className="text-2xl font-bold">RuralNet_Edu</h1>
+          <h1 className="text-2xl font-bold">RuralNet</h1>
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-6">

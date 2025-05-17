@@ -3,8 +3,8 @@ import { LessonCard } from '../components/LessonCard';
 import { ProgressBar } from '../components/ProgressBar';
 import { lessons } from '../utils/lessonData';
 import { SearchIcon } from 'lucide-react';
-import logoImg from './IMG/Logo Aire Sencillo Azul.png'; 
-export function Home() {
+
+export function Home2 (){
   const [searchTerm, setSearchTerm] = useState('');
   
   const filteredLessons = lessons.filter(lesson => lesson.title.toLowerCase().includes(searchTerm.toLowerCase()) || lesson.description.toLowerCase().includes(searchTerm.toLowerCase()));
@@ -15,29 +15,26 @@ export function Home() {
           
           <div className="mb-0 flex flex-col items-center  justify-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-5 w-full justify-center text-center">
-              ¡Bienvenido a RuralNet!
+                Tips para tu educacion 
             </h1>
             <p className="text-xl mb-0 text-center">
-              Comienza tu viaje en esta innovadora plataforma para el aprendizaje
-              de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal, potencializado con ASUS.
+                Seccion enfocada  enfocada en tu necesidad, para tu progreso profesional y personal, potencializa tu aprendizaje.
               
             </p>
              <div className=" justify-center mb-0">
               
-              <img src={logoImg} alt="Imagen del logo" className="w-96 background-position: top left;" />
+            
               
             </div>
           </div>
           
-         
+          
             
           
-          <button className="bg-white text-red-500 hover:bg-amber-100 font-bold py-3 px-6 rounded-full shadow-lg transition transform hover:-translate-y-1">
-            Comenzar Ahora
-          </button>
+         
+        
         </div>
       </section>
-      
       {/* Progress section */}
       <section className="mb-10 bg-white p-6 rounded-xl shadow-md">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Tu Progreso</h2>
@@ -61,31 +58,6 @@ export function Home() {
               <p className="text-3xl font-bold text-gray-800">2</p>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="bg-gradient-to-br from-blue-800 to-purple-800 text-white rounded-2xl p-8 mb-10">
-        <div className="max-w-3xl flex flex-col items-center justify-center mx-auto">
-          
-          <div className="mb-0 flex flex-col items-center  justify-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-5 w-full justify-center text-center">
-              Herramientas digitales para tu profesion.
-            </h1>
-            <p className="text-xl mb-0 text-center">
-              Comienza tu viaje en esta innovadora plataforma para el aprendizaje
-              de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal, potencializado con ASUS.
-              
-            </p>
-             <div className=" justify-center mb-0">
-              
-             
-              
-            </div>
-          </div>
-          
-         
-            
-          
-         
         </div>
       </section>
       {/* Lessons section */}
