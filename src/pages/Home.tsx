@@ -71,9 +71,8 @@ export function Home() {
               Herramientas digitales para tu profesion.
             </h1>
             <p className="text-xl mb-0 text-center">
-              Comienza tu viaje en esta innovadora plataforma para el aprendizaje
-              de herramientas digitales enfocada en tu necesidad, para tu progreso profesional y personal, potencializado con ASUS.
-              
+              Aprende a utilizar herramientas digitales que te ayudaran a
+              potenciar tu aprendizaje y tu vida profesional.
             </p>
              <div className=" justify-center mb-0">
               
