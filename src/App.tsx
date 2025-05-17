@@ -10,12 +10,7 @@ export function App() {
       <main className="flex-grow w-full">
         <Home />
         <Home2 />
-        <button
-          className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-          onClick={() => window.location.href = '/Home2'}
-        >
-          Ir a Incio
-        </button>
+       
       </main>
       <Footer />
     </div>;
