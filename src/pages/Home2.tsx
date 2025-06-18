@@ -18,7 +18,7 @@ export function Home2 (){
                 Tips para tu educacion 
             </h1>
             <p className="text-xl mb-0 text-center">
-                Seccion enfocada  enfocada en tu necesidad, para tu progreso profesional y personal, potencializa tu aprendizaje.
+                Seccion enfocada en tu necesidad, para tu progreso profesional y personal, potencializa tu aprendizaje.
               
             </p>
              <div className=" justify-center mb-0">
