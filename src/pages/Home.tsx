@@ -33,7 +33,7 @@ export function Home() {
 
 
         <button className="bg-white text-red-500 hover:bg-amber-100 font-bold py-3 px-6 rounded-full shadow-lg transition transform hover:-translate-y-1">
-          Comenzar Ahora no despues
+          Comenzar Ahora
         </button>
       </div>
     </section>
