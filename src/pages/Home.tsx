@@ -45,7 +45,7 @@ export function Home() {
         <ProgressBar progress={15} label="Progreso total: 15%" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           <div className="bg-amber-50 p-4 rounded-lg border border-amber-100">
-            <p className="text-amber-800 font-medium">
+            <p className="text-amber-800 font-medium " >
               Lecciones completadas
             </p>
             <p className="text-3xl font-bold text-gray-800">1/12</p>
@@ -88,10 +88,10 @@ export function Home() {
       </div>
     </section>
     {/* Lessons section */}
-    <section>
+    <section id='lecciones'>
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">Lecciones</h2>
-        <div className="relative">
+        <h2 className="text-2xl font-bold text-gray-800" >Lecciones</h2>
+        <div className="relative" >
           <input type="text" placeholder="Buscar lecciones..." className="pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
           <SearchIcon size={18} className="absolute left-3 top-2.5 text-gray-400" />
         </div>

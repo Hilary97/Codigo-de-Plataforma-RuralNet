@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
-
 import { ProgressBar } from '../components/ProgressBar';
-import { lessons } from '../utils/lessonData';
 import { SearchIcon } from 'lucide-react';
-
-
+// import { lessonData2 } from '../utils/lessonData2';
+import { LessonCard } from '../components/LessonCard';
 import { lessonData2 } from '../utils/lessonData2';
+import { lessons } from '../utils/lessonData';
 
 
 export function Home2() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredLessons = lessons.filter(lesson => lesson.title.toLowerCase().includes(searchTerm.toLowerCase()) || lesson.description.toLowerCase().includes(searchTerm.toLowerCase()));
+  const filteredLessons = lessonData2.filter(lesson => lesson.title.toLowerCase().includes(searchTerm.toLowerCase()) || lesson.description.toLowerCase().includes(searchTerm.toLowerCase()));
   return <div className="container mx-auto px-4 py-8">
     {/* Hero section */}
     <section className="bg-gradient-to-br from-blue-800 to-purple-800 text-white rounded-2xl p-8 mb-10">
@@ -37,29 +36,30 @@ export function Home2() {
 
 
 
+
       </div>
     </section>
     {/* Progress section */}
     <section className="mb-10 bg-white p-6 rounded-xl shadow-md">
       <h2 className="text-2xl font-bold mb-4 text-gray-800">Tu Progreso</h2>
       <div className="space-y-4">
-        <ProgressBar progress={15} label="Progreso total: 15%" />
+        <ProgressBar progress={45} label="Progreso total: 55%" />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
           <div className="bg-amber-50 p-4 rounded-lg border border-amber-100">
             <p className="text-amber-800 font-medium">
               Lecciones completadas
             </p>
-            <p className="text-3xl font-bold text-gray-800">1/12</p>
+            <p className="text-3xl font-bold text-gray-800">7/12</p>
           </div>
           <div className="bg-green-50 p-4 rounded-lg border border-green-100">
             <p className="text-green-800 font-medium">
               Ejercicios completados
             </p>
-            <p className="text-3xl font-bold text-gray-800">3/24</p>
+            <p className="text-3xl font-bold text-gray-800">9/24</p>
           </div>
           <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
             <p className="text-blue-800 font-medium">Días consecutivos</p>
-            <p className="text-3xl font-bold text-gray-800">2</p>
+            <p className="text-3xl font-bold text-gray-800">22</p>
           </div>
         </div>
       </div>
@@ -74,15 +74,7 @@ export function Home2() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {[...filteredLessons, ...lessonData2].map(lesson => (
-          <div key={lesson.id} className="bg-white rounded-lg shadow-md p-4">
-            <img src={lesson.imageUrl} alt={lesson.title} className="w-full h-40 object-cover rounded-md mb-4" />
-            <h3 className="text-lg font-semibold mb-2">{lesson.title}</h3>
-            <p className="text-gray-600 mb-2">{lesson.description}</p>
-            
-            
-          </div>
-        ))}
+        {filteredLessons.map(lesson => <LessonCard key={lesson.id} title={lesson.title} description={lesson.description} imageUrl={lesson.imageUrl} level={lesson.level} duration={lesson.duration} onClick={()=> console.log(`Select lesson: ${lesson.id}`)}/>)}
       </div>
     </section>
   </div>;

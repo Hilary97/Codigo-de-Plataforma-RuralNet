@@ -17,9 +17,9 @@ export interface lesson2 {
   };
 }export const lessonData2: lesson2[] = [{
   id: 'alfabeto',
-  title: 'Etica y seguridad en línea',
-  description: 'Aprende a proteger tus datos personales y navegación segura.',
-  imageUrl: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+  title: 'Establece Metas SMART: La Brújula de tu Progreso',
+  description: 'Define objetivos de aprendizaje que sean Específicos, Medibles, Alcanzables, Relevantes y con un Tiempo definido (SMART).',
+  imageUrl: 'https://media.slidesgo.com/storage/1869045/responsive-images/7-smart-goals-infographics___media_library_original_459_258.jpg',
   level: 'Principiante',
   duration: '15 min',
   content: {
@@ -49,38 +49,38 @@ export interface lesson2 {
   }
 }, {
   id: 'saludos',
-  title: 'Aprende matematicas basicas',
-  description: 'Aprende a usar herramientas digitales para tu progreso profesional y personal.',  
-  imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  title: 'Adopta el Microaprendizaje: Pequeñas Dosis, Gran Impacto',
+  description: 'Aprovecha la flexibilidad de la educación en línea estudiando en bloques de tiempo cortos y enfocados (15 a 30 minutos).',  
+  imageUrl: 'https://www.shutterstock.com/image-photo/young-woman-student-texting-on-260nw-2375643135.jpg',
   level: 'Principiante',
   duration: '20 min'
 }, {
   id: 'numeros',
-  title: 'Oportunidades laborales',
-  description: 'Explora las oportunidades laborales en el campo de la alfabetización digital.',
-  imageUrl: 'https://blog.tecmilenio.mx/hs-fs/hubfs/Ingeniero%20Industrial%20-%20Campo%20laboral.jpg?width=770&height=433&name=Ingeniero%20Industrial%20-%20Campo%20laboral.jpg',
+  title: 'Fomenta el Aprendizaje Activo y Colaborativo',
+  description: 'No solo consumas contenido; aplícalo. Participa en foros, resuelve ejercicios, haz simulaciones y trata de explicar lo aprendido a otra persona. La colaboración y la aplicación práctica consolidan el conocimiento.',
+  imageUrl: 'https://i.blogs.es/33b436/zadarma-videollamada-a-cuatro/450_1000.jpeg',
   level: 'Intermedio',
   duration: '30 min'
 }, {
   id: 'colores',
-  title: 'Lengua y cultura indigena en México',
-  description: 'Aprende sobre la diversidad lingüística y cultural de México.',
-  imageUrl: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  title: 'Prioriza las Habilidades Blandas (Soft Skills)',
+  description: 'El crecimiento profesional no es solo técnico. Dedica tiempo a desarrolar habilidades esenciales como la comunicación efectiva, el pensamiento crítico y la inteligencia emocional.',
+  imageUrl: 'https://alejandraprado.com/wp-content/uploads/2023/11/mujer-asertiva.jpg',
   level: 'Intermedio',
   duration: '30 min'
 }, {
   id: 'IA',
-  title: 'La IA y su impacto en la sociedad',
-  description: 'Explora cómo la inteligencia artificial está transformando el mundo.',
-  imageUrl: 'https://gdb.voanews.com/01000000-0aff-0242-97dc-08db951500a1_w1023_n_r1_s_s.jpg',
+  title: 'Crea tu Hábito de Aprendizaje Constante (Lifelong Learning)',
+  description: 'El mercado laboral evoluciona rápidamente. Para no quedarte atrás, haz del aprendizaje un hábito diario, no una obligación.',
+  imageUrl: 'https://www.shutterstock.com/image-photo/organized-woman-managing-work-home-260nw-2554275549.jpg',
   level: 'Avanzado',
   duration: '40 min'
 
 },  {
   id: 'tecnologia',
-  title: 'Manejo correcto del español',
-  description: 'Descubre cómo la tecnología está cambiando el mundo .',
-  imageUrl: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+  title: 'Busca Feedback y Mentoría',
+  description: 'No temas pedir retroalimentación sobre tu trabajo o desempeño. Si es posible, identifica a un mentor (un profesional con experiencia en tu área de estudio) que pueda guiarte.',
+  imageUrl: 'https://blog.ucsp.edu.pe/hubfs/Inbound-Pregrado/orientacion%20profesional.jpg',
   level: 'Avanzado',
   duration: '40 min'
 }];

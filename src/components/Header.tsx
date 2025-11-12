@@ -15,7 +15,7 @@ export function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-amber-200 transition">
+              <a href="#lecciones" className="hover:text-amber-200 transition">
                 Lecciones
               </a>
             </li>
